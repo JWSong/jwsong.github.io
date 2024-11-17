@@ -5,5 +5,7 @@ description: Notes on software development
 permalink: /:year/:month/:day/:title/
 paginate: 10
 
-gems: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
