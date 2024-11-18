@@ -1,50 +1,86 @@
-### your site title here
+# Version
+version                             : 2.0.1
 
-title: ☕ </> Code Brewing Notes
-# disabled because we are using a custom domain
-#baseurl: /hagura # name of the repository
-email: jungwoo.song1@gmail.com
+# Site
+site_title                          : ☕ </> Code Brewing Notes
+site_description                    : A blog about software engineering, mainly focussed on backend development.
+site_keywords                       : hacking, programming, software, development, engineering, blog, jungwoo, song, coffee, espresso, backend
+site_favicon                        : img/favicon.svg
+site_logo                           : img/logo.svg
+site_language_short                 : en
+site_language_full                  : english
 
-highlighter: rouge
+# Author
+author_fullname                     : Jungwoo Song
+author_github                       : JWSong
+author_linkedin                     : jungwoo-song-6342488a
 
-permalink: /:title/
-paginate: 4
-paginate_path: /page:num/
+author: 
+  name: Jungwoo Song
+  uri: "https://jwsong.github.io"
 
+# Layout
+layout_content_width                : col-12 col-sm-12 col-md-12 col-lg-11 col-xl-8 col-xll-6
 
-
-# Tracker
-analytics: UA-83979019-4
-
-# Comments
-disqus-shortname: webjeda-demo
-
-
-#optimization
-#compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-
-
-sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
-
-include:
-  - _pages
-
+# Exlude certain files from production builds
 exclude:
-  - README.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
   - LICENSE.md
+  - PRIVACY.md
+  - README.md
+  - SECURITY.md
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - dotenv
 
+# Force include CNAME for gh-pages deployment
+include:
+  - CNAME
 
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  posts:
+    permalink: /blog/:slug/
+
+# Show posts with a date in the future
+future: true
+
+# Compress output HTML
+compress_html:
+  clippings: all
+  comments: all
+  blanklines: false
+
+# Compress output CSS
+sass:
+  style: compressed # You might prefer to minify using :compressed
+
+# RSS feed
+feed:
+  path: /feeds/atom.xml
+  posts_limit: 100
+
+# Markdown rendering
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Disable redirect.json creation
+redirect_from:
+  json: false
+
+# Include dependencies
 plugins:
-  - jekyll-seo-tag
-  - jekyll-paginate
+  - bootstrap
+  - jemoji
+  - jekyll-graphviz
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
