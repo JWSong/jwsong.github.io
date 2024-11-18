@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Optimizing Rust CI Pipeline with GitHub Actions"
-subtitle: "A Deep Dive into Caching Strategies"
+title: "Optimizing Rust CI Pipeline with GitHub Actions: A Deep Dive into Caching Strategies"
 description: "How I optimized our Rust CI pipeline with GitHub Actions, focusing on caching strategies and Docker optimizations."
 keywords: "rust, github-actions, docker, ci, cache, optimization, devops, cargo"
 author: "Jungwoo Song"
