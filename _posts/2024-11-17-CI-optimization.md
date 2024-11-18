@@ -211,20 +211,20 @@ This configuration ensures that:
 ## Best Practices and Lessons Learned
 
 1. **Layer Organization**
-   - Keep frequently changing files in later layers
-   - Separate dependency installation from application code
-   - Use multi-stage builds for smaller final images
+  - Keep frequently changing files in later layers
+  - Separate dependency installation from application code
+  - Use multi-stage builds for smaller final images
 
 2. **Cache Strategy**
-   - Create dedicated cache management workflow for main branch
-   - Use Cargo.lock hash for cache keys
-   - Implement cache existence check to avoid redundant builds
-   - Leverage default branch cache sharing for feature branches
+  - Create dedicated cache management workflow for main branch
+  - Use Cargo.lock hash for cache keys
+  - Implement cache existence check to avoid redundant builds
+  - Leverage default branch cache sharing for feature branches
 
 3. **BuildKit Optimization**
-   - Use cache mounts for cargo registry and target directory
-   - Configure proper cache locations
-   - Implement platform-specific caching
+  - Use cache mounts for cargo registry and target directory
+  - Configure proper cache locations
+  - Implement platform-specific caching
 
 ## Conclusion
 
