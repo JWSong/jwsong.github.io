@@ -1,9 +1,14 @@
 ---
 layout: post
-title: "Optimizing Rust CI Pipeline with GitHub Actions: A Deep Dive into Caching Strategies"
-date: 2024-11-17 18:20:00 +0900
-categories: [Rust, DevOps]
-tags: [rust, github-actions, docker, ci-cd, cache, optimization]
+title: "Optimizing Rust CI Pipeline with GitHub Actions"
+subtitle: "A Deep Dive into Caching Strategies"
+description: "How I optimized our Rust CI pipeline with GitHub Actions, focusing on caching strategies and Docker optimizations."
+keywords: "rust, github-actions, docker, ci, cache, optimization, devops, cargo"
+author: "Jungwoo Song"
+show_in_post_list: true
+include_in_header: false
+include_in_footer: false
+robots: index, follow
 ---
 
 As our Rust project grew, we faced increasing build times in our CI pipeline. This post shares my journey of optimizing the CI/CD process using GitHub Actions, focusing on caching strategies and Docker optimizations. I'll walk you through the problems I encountered and how I solved them.
