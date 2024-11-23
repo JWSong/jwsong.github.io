@@ -10,10 +10,6 @@ include_in_footer: false
 robots: index, follow
 ---
 
-Tokio is a powerful runtime for asynchronous Rust applications. It provides a high-level API for building concurrent and distributed applications. At its core, Tokio manages threads and tasks to execute asynchronous code efficiently. This post explores the different types of threads Tokio uses and how to manage tasks effectively.
-
-# Understanding Tokio's Thread Types and Task Management
-
 ## Introduction
 When building asynchronous applications in Rust with Tokio, understanding how it manages threads and tasks is crucial for optimal performance. Tokio uses two distinct types of threads - core threads and blocking threads - each serving a specific purpose in the runtime.
 
