@@ -7,9 +7,8 @@ order: 1
 robots: index, follow
 ---
 
-Hi there! I'm Jungwoo Song, a Backend Developer passionate about both designing clean architectures and building robust applications. With a coffee in one hand and code in the other, I explore the art of creating systems that are not only well-structured but also reliable and scalable.
-
-I embrace new technologies with enthusiasm and find joy in continuous learning. What excites me most about software development is crafting solutions that maintain their elegance as they scale. My curiosity drives me to explore different architectural patterns while ensuring robust implementation that stands up to real-world demands.
+Hi there! I'm Jungwoo Song, a Backend Developer who finds inspiration in both writing code and brewing coffee. With a fresh cup of coffee as my constant companion, I'm passionate about designing clean architectures and building robust applications that stand the test of time.
+Like the art of brewing a perfect cup, I believe great software requires attention to detail, patience, and continuous refinement. I embrace new technologies with enthusiasm and find joy in the learning process. What excites me most about software development is crafting elegant solutions that scale gracefully while maintaining their core integrity - much like finding that perfect balance in a well-crafted coffee.
 
 
 ## Current Focus
