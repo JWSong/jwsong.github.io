@@ -10,8 +10,6 @@ include_in_footer: false
 robots: index, follow
 ---
 
-# Rust로 Lock-Free 하게 Snowflake ID 생성기 만들기
-
 ## 들어가며
 "아니, 이게 왜 안 되지?"
 
